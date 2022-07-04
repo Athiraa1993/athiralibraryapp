@@ -1,5 +1,6 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://userone:<userone>@ictakfiles.dio91.mongodb.net/LIBRARYAPP?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://userone:userone@ictakfiles.dio91.mongodb.net/LIBRARYAPP?retryWrites=true&w=majority")
+
 const Schema =mongoose.Schema;
 
 const BookSchema =new Schema({

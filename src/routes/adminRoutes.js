@@ -1,7 +1,8 @@
 const express=require("express")
 const adminRouter=express.Router()
 const Bookdata=require("../model/Bookdata")
-
+const Admin=require("../model/Admin")
+const User=require("../model/User")
 
 function router(nav){
     adminRouter.get("/",function(req,res){
